@@ -42,7 +42,7 @@ div.addcontent {
     align-items: center;
 }
 div.addcontainer {
-    width: 25px;
+    width: 27px;
     margin-top: 25px;
 }
 div.addcontainer img {
@@ -97,6 +97,7 @@ div.addcontainer img {
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
 }
+
 #details div.settings {
     display: flex;
     justify-content: space-between;
@@ -219,9 +220,38 @@ section.items p {
 div.topcontainer {
     position: relative;
 }
+div.buttoncontent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
 div.topcontainer h1 {
     font-size: 25px;
-    margin-top: 15px;
+}
+div.topcontainer a {
+    color: rgb(66, 82, 110);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+}
+div.gitrepo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(244, 245, 247);
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+div.githubimage {
+    width: 21px;
+    margin-right: 6px;
+}
+div.githubimage img {
+    display: block;
+    width: 100%;
 }
 input {
     padding: 8px 22px 9px 33px;
@@ -235,9 +265,9 @@ input {
     margin-right: 20px;
 }
 div.serachcontainer {
-    width: 17px;
+    width: 18px;
     position: absolute;
-    top: 67px;
+    top: 73px;
     left: 9px;
 }
 div.serachcontainer img {
@@ -290,24 +320,34 @@ div.text {
     justify-content: center;
     align-items: center;
 }
-div.text button {
+div.text h3 {
     color: rgb(66, 82, 110);
     cursor: pointer;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
+/* div.text button:hover {
+    background: rgb(244, 245, 247);
+    padding: 6px 5px 5px 2px;
+    transition: all 0.1s ease 0s;
+
+} */
 div.text h4 {
     color: rgb(66, 82, 110);
     margin-left: 20px;
     cursor: pointer;
-
+    font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-    font-size: 14px;
 }
+/* div.text h4:hover {
+    background: rgb(244, 245, 247);
+    padding: 6px 5px 5px 2px;
+    transition: all 0.1s ease 0s;
+} */
 div.bottomcontainer {
     margin-top: 40px;
 }
@@ -403,7 +443,6 @@ div.orangearrow img {
     display: block;
     width: 100%;
 }
-
 div.secondcards {
     height: 400px;
     width: 105%;
@@ -487,6 +526,8 @@ div.trackcontent h5 {
 }
 div.fourthimages {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 17px 17px 13px 17px;
 }
 div.arcivecontainer {
@@ -515,7 +556,7 @@ div.thirdcards :hover {
     background: rgb(235, 236, 240);
 }
 div.thirdcards h3 {
-    /* color: rgb(66, 82, 110); */
+    color: rgb(66, 82, 110);
     font-size: 14px;
     padding: 13px 0 0 13px;
 }
@@ -572,8 +613,14 @@ div.singlecontent h5 {
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
 }
+div.secondcontainer {
+    display: flex;
+    justify-content: space-between;
+}
 div.sixthimages {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 17px 17px 13px 17px;
 }
 div.arcivecontainer {
@@ -660,6 +707,7 @@ div.done h5 {
 }
 div.eightimages {
     display: flex;
+    justify-content: space-between;
     padding: 17px 17px 13px 17px;
 }
 div.arcivecontainer {
